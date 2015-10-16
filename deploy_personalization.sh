@@ -13,9 +13,7 @@ confirm () {
     esac
 }
 
-confirm || exit 0
-
-ln -s ./vimrc ~/.vimrc
-ln -s ./tmux.conf ~/.tmux.conf
+ln -si $(pwd)/vimrc ~/.vimrc
+ln -si $(pwd)/tmux.conf ~/.tmux.conf
 
 echo "Done"
