@@ -1,9 +1,14 @@
+syntax on
+filetype indent on
+filetype indent plugin on
+set ruler
+set hlsearch
+set confirm
+set mouse=a
 set tabstop=4
 set expandtab
-set softtabstop=4
 set shiftwidth=4
-filetype indent on
-syntax on
-filetype indent plugin on
+set modelines=3
+set autoindent
+set noerrorbells
 autocmd BufWritePre *.py :%s/\s\+$//e
-set hlsearch
