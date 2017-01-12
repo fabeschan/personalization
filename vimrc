@@ -4,7 +4,6 @@ filetype indent plugin on
 set ruler
 set hlsearch
 set confirm
-set mouse=a
 set tabstop=4
 set expandtab
 set shiftwidth=4
